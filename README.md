@@ -6,20 +6,20 @@
         - Today’s Events from iCloud Calendar
         - Today’s Tasks from Things 3
 - ## Installation
-    - Install roamAgenda.scpt into ~/Library/Scripts
-        - You will need to customise the template by editing the first few lines of the code
+        - Install roamAgenda.scpt into ~/Library/Scripts
+            - You will need to customise the template by editing the first few lines of the code
         - I have embedded blocks called 
             - ‘The Lab’ for ideas in different categories
             - ‘The Market’ for things I need to get from different ‘stalls'
             - ‘Todays Projects’ - things I choose to work on today
             - ‘This Weeks Projects’ - thing to do this week
-    - Install roamAgenda.alfredworkflow into Alfred
-        - This is a very simple workflow so you can create it yourself
-        - Snippet -> Run Script (bin/bash)
-            - osascript ~/Library/Scripts/roamAgenda.scpt
-    - Install CalendarLib EC
-        - download from https://latenightsw.com/support/freeware/
-        - place in ~/Library/Script Libraries (which may have to be created)
+        - Install roamAgenda.alfredworkflow into Alfred
+            - This is a very simple workflow so you can create it yourself
+                - Snippet -> Run Script (bin/bash)
+                - osascript ~/Library/Scripts/roamAgenda.scpt
+        - Install CalendarLib EC
+            - download from https://latenightsw.com/support/freeware/
+            - place in ~/Library/Script Libraries (which may have to be created)
 - ## Useage
         - Type the Alfred hotkey in your Daily Notes
         - I use ‘roama ‘ (ie roama followed by a space) as the hotkey
