@@ -6,8 +6,8 @@ use script "CalendarLib EC"
 -- place in ~/Library/Script Libraries (which may have to be created)
 
 -- set this to false if not wanting to use templates
-set useTemplate to true
--- set these to the reference of the parent embeddedBlock
+set useTemplate to false
+-- set these to the reference of the appropriate parent embeddedBlock
 set theLab to "0hVOh8SGb"
 set theMarket to "9Q-zHKx01"
 set theDrawingBoardToday to "p-yUpe1zR"
