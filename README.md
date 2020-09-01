@@ -6,12 +6,18 @@
         - Today’s Events from iCloud Calendar
         - Today’s Tasks from Things 3
 - ## Installation
-        - Open roamAgenda.applescript in Script Editor, edit the first few lines of code as indicated, and then save as complied script (roamAgenda.scpt) in ~/Library/Scripts
-            - I have embedded blocks called 
-                - ‘The Lab’ for ideas in different categories
-                - ‘The Market’ for things I need to get from different ‘stalls'
-                - ‘Todays Projects’ - things I choose to work on today
-                - ‘This Weeks Projects’ - thing to do this week
+        - install roamAgenda.scpt in in ~/Library/Scripts
+            - As default roamAgenda does not include the Templating functions
+            - To customise you will need to edit the first few lines of applescript
+                - open roamAgenda.scpt in Script Editor
+                - change 'set useTemplate to false' to 'set useTemplate to true'
+                - I have embedded blocks called 
+                    - ‘The Lab’ for ideas in different categories
+                    - ‘The Market’ for things I need to get from different ‘stalls'
+                    - ‘Todays Projects’ - things I choose to work on today
+                    - ‘This Weeks Projects’ - thing to do this week
+                - change the reference ID for embedded blocks to those in your graph
+                - save the changes you have made
         - Install roamAgenda.alfredworkflow into Alfred
             - This is a very simple workflow so you can create it yourself
                 - Snippet -> Run Script (bin/bash)
