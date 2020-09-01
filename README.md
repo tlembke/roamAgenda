@@ -2,9 +2,10 @@
 - # Roam Agenda
     - MacOSX only
     - Pastes daily agenda into roam, including
-        - Ideas and Projects
+        - Ideas and Projects (optional)
         - Today’s Events from iCloud Calendar
         - Today’s Tasks from Things 3
+![Screenshot](https://user-images.githubusercontent.com/1575500/91783499-caf15900-ec43-11ea-9503-6766e5047144.png)
 - ## Installation
         - install roamAgenda.scpt in in ~/Library/Scripts
             - As default roamAgenda does not include the Templating functions
@@ -33,5 +34,5 @@
         - [The Drawing Board](screenshots/theDrawingBoard.png)
         - [The Lab](screemshots/theLab.png)
         - [The Market](screenshots/theMarket.png)
-![Screenshot](https://user-images.githubusercontent.com/1575500/91783499-caf15900-ec43-11ea-9503-6766e5047144.png)
+
 
