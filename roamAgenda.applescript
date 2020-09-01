@@ -5,13 +5,45 @@ use script "CalendarLib EC"
 -- nice!!
 -- place in ~/Library/Script Libraries (which may have to be created)
 
--- set this to false if not wanting to use templates
+-- create roamAgenda.conf to set defaults
+
 set useTemplate to false
--- set these to the reference of the appropriate parent embeddedBlock
-set theLab to "0hVOh8SGb"
-set theMarket to "9Q-zHKx01"
-set theDrawingBoardToday to "p-yUpe1zR"
-set theDrawingBoardWeek to "lBSwKorAn"
+set theLab to ""
+set theMarket to ""
+set theDrawingBoardToday to ""
+set theDrawingBoardWeek to ""
+
+
+set confFile to POSIX path of (path to library folder from user domain) & "Scripts/roamAgenda.conf"
+try
+	set ps to paragraphs of (read POSIX file confFile)
+	set x to AppleScript's text item delimiters
+	
+	set AppleScript's text item delimiters to " "
+	repeat with pair in ps
+		if first word of pair is "useTemplate" then
+			if word 2 of pair is "true" then
+				set useTemplate to true
+			end if
+		end if
+		if first word of pair is "theLab" then
+			set theLab to rest of text items of pair as string
+		end if
+		if first word of pair is "theMarket" then
+			set theMarket to rest of text items of pair as string
+		end if
+		if first word of pair is "theDrawingBoardToday" then
+			set theDrawingBoardToday to rest of text items of pair as string
+		end if
+		if first word of pair is "theDrawingBoardWeek" then
+			set theDrawingBoardWeek to rest of text items of pair as string
+		end if
+	end repeat
+	set AppleScript's text item delimiters to x
+	
+	close access confFile
+	
+end try
 
 -- change this if you want specific calendars
 set theCalendarNames to {} --  default all calenders

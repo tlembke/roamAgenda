@@ -8,9 +8,8 @@
 - ## Installation
         - install roamAgenda.scpt in in ~/Library/Scripts
             - As default roamAgenda does not include the Templating functions
-            - To customise you will need to edit the first few lines of applescript
-                - open roamAgenda.scpt in Script Editor
-                - change 'set useTemplate to false' to 'set useTemplate to true'
+            - To customise you will need to also add the file roamAgenda.conf to ~/Library/Scripts
+                - make sure the first line is 'useTemplate true'
                 - I have embedded blocks called 
                     - ‘The Lab’ for ideas in different categories
                     - ‘The Market’ for things I need to get from different ‘stalls'
