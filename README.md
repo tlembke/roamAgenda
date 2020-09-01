@@ -29,7 +29,7 @@
         - I use ‘roama ‘ (ie roama followed by a space) as the hotkey
         - If you like, drag (or reference)Tasks imported from Things to the appropriate Project in Roam
 - ## Screenshots
-        - ![Image]([https://user-images.githubusercontent.com/1575500/91783499-caf15900-ec43-11ea-9503-6766e5047144.png)
+        - ![Image](https://user-images.githubusercontent.com/1575500/91783499-caf15900-ec43-11ea-9503-6766e5047144.png)
         - [Results](screenshots/roamAgenda_complete.png)
         - [The Drawing Board](screenshots/theDrawingBoard.png)
         - [The Lab](screemshots/theLab.png)
